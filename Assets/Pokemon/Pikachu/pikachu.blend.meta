@@ -1,0 +1,790 @@
+fileFormatVersion: 2
+guid: 527f5d9691d048c4e8a21412b315ddf8
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Armature_001
+    100004: Cube
+    100006: Ear_L
+    100008: Ear_R
+    100010: FootBackLeft
+    100012: FootBackRight
+    100014: FootFrontLeft
+    100016: FootFrontRight
+    100018: Head
+    100020: LegBackLeft
+    100022: LegBackRight
+    100024: LegFrontLeft
+    100026: LegFrontRight
+    100028: LowerBack
+    100030: //RootNode
+    100032: Tail
+    100034: UpperBack
+    400000: Armature
+    400002: Armature_001
+    400004: Cube
+    400006: Ear_L
+    400008: Ear_R
+    400010: FootBackLeft
+    400012: FootBackRight
+    400014: FootFrontLeft
+    400016: FootFrontRight
+    400018: Head
+    400020: LegBackLeft
+    400022: LegBackRight
+    400024: LegFrontLeft
+    400026: LegFrontRight
+    400028: LowerBack
+    400030: //RootNode
+    400032: Tail
+    400034: UpperBack
+    4300000: Cube
+    7400000: Default Take
+    7400002: Action_Attack1
+    7400004: Action_Attack2
+    7400006: Action_Attack3
+    7400008: Action_Attack4
+    7400010: Action_BigDamage
+    7400012: Action_Faint
+    7400014: Action_Idle
+    7400016: Action_Run
+    7400018: Action_RunFast
+    7400020: Action_SmallDamage
+    9500000: //RootNode
+    13700000: Cube
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Ear_L
+        weight: 1
+      - path: Armature/Ear_R
+        weight: 1
+      - path: Armature/FootBackLeft
+        weight: 1
+      - path: Armature/FootBackLeft/LegBackLeft
+        weight: 1
+      - path: Armature/FootBackRight
+        weight: 1
+      - path: Armature/LegBackRight
+        weight: 1
+      - path: Armature/LegFrontLeft
+        weight: 1
+      - path: Armature/LegFrontLeft/FootFrontLeft
+        weight: 1
+      - path: Armature/LegFrontRight
+        weight: 1
+      - path: Armature/LegFrontRight/FootFrontRight
+        weight: 1
+      - path: Armature/LowerBack
+        weight: 1
+      - path: Armature/LowerBack/UpperBack
+        weight: 1
+      - path: Armature/LowerBack/UpperBack/Head
+        weight: 1
+      - path: Armature/Tail
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Action_Attack1
+      takeName: Action_Attack1
+      firstFrame: -1
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Ear_L
+        weight: 1
+      - path: Armature/Ear_R
+        weight: 1
+      - path: Armature/FootBackLeft
+        weight: 1
+      - path: Armature/FootBackLeft/LegBackLeft
+        weight: 1
+      - path: Armature/FootBackRight
+        weight: 1
+      - path: Armature/LegBackRight
+        weight: 1
+      - path: Armature/LegFrontLeft
+        weight: 1
+      - path: Armature/LegFrontLeft/FootFrontLeft
+        weight: 1
+      - path: Armature/LegFrontRight
+        weight: 1
+      - path: Armature/LegFrontRight/FootFrontRight
+        weight: 1
+      - path: Armature/LowerBack
+        weight: 1
+      - path: Armature/LowerBack/UpperBack
+        weight: 1
+      - path: Armature/LowerBack/UpperBack/Head
+        weight: 1
+      - path: Armature/Tail
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Action_Attack2
+      takeName: Action_Attack2
+      firstFrame: -1
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Ear_L
+        weight: 1
+      - path: Armature/Ear_R
+        weight: 1
+      - path: Armature/FootBackLeft
+        weight: 1
+      - path: Armature/FootBackLeft/LegBackLeft
+        weight: 1
+      - path: Armature/FootBackRight
+        weight: 1
+      - path: Armature/LegBackRight
+        weight: 1
+      - path: Armature/LegFrontLeft
+        weight: 1
+      - path: Armature/LegFrontLeft/FootFrontLeft
+        weight: 1
+      - path: Armature/LegFrontRight
+        weight: 1
+      - path: Armature/LegFrontRight/FootFrontRight
+        weight: 1
+      - path: Armature/LowerBack
+        weight: 1
+      - path: Armature/LowerBack/UpperBack
+        weight: 1
+      - path: Armature/LowerBack/UpperBack/Head
+        weight: 1
+      - path: Armature/Tail
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Action_Attack3
+      takeName: Action_Attack3
+      firstFrame: -1
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Ear_L
+        weight: 1
+      - path: Armature/Ear_R
+        weight: 1
+      - path: Armature/FootBackLeft
+        weight: 1
+      - path: Armature/FootBackLeft/LegBackLeft
+        weight: 1
+      - path: Armature/FootBackRight
+        weight: 1
+      - path: Armature/LegBackRight
+        weight: 1
+      - path: Armature/LegFrontLeft
+        weight: 1
+      - path: Armature/LegFrontLeft/FootFrontLeft
+        weight: 1
+      - path: Armature/LegFrontRight
+        weight: 1
+      - path: Armature/LegFrontRight/FootFrontRight
+        weight: 1
+      - path: Armature/LowerBack
+        weight: 1
+      - path: Armature/LowerBack/UpperBack
+        weight: 1
+      - path: Armature/LowerBack/UpperBack/Head
+        weight: 1
+      - path: Armature/Tail
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Action_Attack4
+      takeName: Action_Attack4
+      firstFrame: -1
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Ear_L
+        weight: 1
+      - path: Armature/Ear_R
+        weight: 1
+      - path: Armature/FootBackLeft
+        weight: 1
+      - path: Armature/FootBackLeft/LegBackLeft
+        weight: 1
+      - path: Armature/FootBackRight
+        weight: 1
+      - path: Armature/LegBackRight
+        weight: 1
+      - path: Armature/LegFrontLeft
+        weight: 1
+      - path: Armature/LegFrontLeft/FootFrontLeft
+        weight: 1
+      - path: Armature/LegFrontRight
+        weight: 1
+      - path: Armature/LegFrontRight/FootFrontRight
+        weight: 1
+      - path: Armature/LowerBack
+        weight: 1
+      - path: Armature/LowerBack/UpperBack
+        weight: 1
+      - path: Armature/LowerBack/UpperBack/Head
+        weight: 1
+      - path: Armature/Tail
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Action_BigDamage
+      takeName: Action_BigDamage
+      firstFrame: -1
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Ear_L
+        weight: 1
+      - path: Armature/Ear_R
+        weight: 1
+      - path: Armature/FootBackLeft
+        weight: 1
+      - path: Armature/FootBackLeft/LegBackLeft
+        weight: 1
+      - path: Armature/FootBackRight
+        weight: 1
+      - path: Armature/LegBackRight
+        weight: 1
+      - path: Armature/LegFrontLeft
+        weight: 1
+      - path: Armature/LegFrontLeft/FootFrontLeft
+        weight: 1
+      - path: Armature/LegFrontRight
+        weight: 1
+      - path: Armature/LegFrontRight/FootFrontRight
+        weight: 1
+      - path: Armature/LowerBack
+        weight: 1
+      - path: Armature/LowerBack/UpperBack
+        weight: 1
+      - path: Armature/LowerBack/UpperBack/Head
+        weight: 1
+      - path: Armature/Tail
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Action_Faint
+      takeName: Action_Faint
+      firstFrame: -1
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Ear_L
+        weight: 1
+      - path: Armature/Ear_R
+        weight: 1
+      - path: Armature/FootBackLeft
+        weight: 1
+      - path: Armature/FootBackLeft/LegBackLeft
+        weight: 1
+      - path: Armature/FootBackRight
+        weight: 1
+      - path: Armature/LegBackRight
+        weight: 1
+      - path: Armature/LegFrontLeft
+        weight: 1
+      - path: Armature/LegFrontLeft/FootFrontLeft
+        weight: 1
+      - path: Armature/LegFrontRight
+        weight: 1
+      - path: Armature/LegFrontRight/FootFrontRight
+        weight: 1
+      - path: Armature/LowerBack
+        weight: 1
+      - path: Armature/LowerBack/UpperBack
+        weight: 1
+      - path: Armature/LowerBack/UpperBack/Head
+        weight: 1
+      - path: Armature/Tail
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Action_Idle
+      takeName: Action_Idle
+      firstFrame: -1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Ear_L
+        weight: 1
+      - path: Armature/Ear_R
+        weight: 1
+      - path: Armature/FootBackLeft
+        weight: 1
+      - path: Armature/FootBackLeft/LegBackLeft
+        weight: 1
+      - path: Armature/FootBackRight
+        weight: 1
+      - path: Armature/LegBackRight
+        weight: 1
+      - path: Armature/LegFrontLeft
+        weight: 1
+      - path: Armature/LegFrontLeft/FootFrontLeft
+        weight: 1
+      - path: Armature/LegFrontRight
+        weight: 1
+      - path: Armature/LegFrontRight/FootFrontRight
+        weight: 1
+      - path: Armature/LowerBack
+        weight: 1
+      - path: Armature/LowerBack/UpperBack
+        weight: 1
+      - path: Armature/LowerBack/UpperBack/Head
+        weight: 1
+      - path: Armature/Tail
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Action_Run
+      takeName: Action_Run
+      firstFrame: -1
+      lastFrame: 8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Ear_L
+        weight: 1
+      - path: Armature/Ear_R
+        weight: 1
+      - path: Armature/FootBackLeft
+        weight: 1
+      - path: Armature/FootBackLeft/LegBackLeft
+        weight: 1
+      - path: Armature/FootBackRight
+        weight: 1
+      - path: Armature/LegBackRight
+        weight: 1
+      - path: Armature/LegFrontLeft
+        weight: 1
+      - path: Armature/LegFrontLeft/FootFrontLeft
+        weight: 1
+      - path: Armature/LegFrontRight
+        weight: 1
+      - path: Armature/LegFrontRight/FootFrontRight
+        weight: 1
+      - path: Armature/LowerBack
+        weight: 1
+      - path: Armature/LowerBack/UpperBack
+        weight: 1
+      - path: Armature/LowerBack/UpperBack/Head
+        weight: 1
+      - path: Armature/Tail
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Action_RunFast
+      takeName: Action_RunFast
+      firstFrame: -1
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Ear_L
+        weight: 1
+      - path: Armature/Ear_R
+        weight: 1
+      - path: Armature/FootBackLeft
+        weight: 1
+      - path: Armature/FootBackLeft/LegBackLeft
+        weight: 1
+      - path: Armature/FootBackRight
+        weight: 1
+      - path: Armature/LegBackRight
+        weight: 1
+      - path: Armature/LegFrontLeft
+        weight: 1
+      - path: Armature/LegFrontLeft/FootFrontLeft
+        weight: 1
+      - path: Armature/LegFrontRight
+        weight: 1
+      - path: Armature/LegFrontRight/FootFrontRight
+        weight: 1
+      - path: Armature/LowerBack
+        weight: 1
+      - path: Armature/LowerBack/UpperBack
+        weight: 1
+      - path: Armature/LowerBack/UpperBack/Head
+        weight: 1
+      - path: Armature/Tail
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Action_SmallDamage
+      takeName: Action_SmallDamage
+      firstFrame: -1
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Ear_L
+        weight: 1
+      - path: Armature/Ear_R
+        weight: 1
+      - path: Armature/FootBackLeft
+        weight: 1
+      - path: Armature/FootBackLeft/LegBackLeft
+        weight: 1
+      - path: Armature/FootBackRight
+        weight: 1
+      - path: Armature/LegBackRight
+        weight: 1
+      - path: Armature/LegFrontLeft
+        weight: 1
+      - path: Armature/LegFrontLeft/FootFrontLeft
+        weight: 1
+      - path: Armature/LegFrontRight
+        weight: 1
+      - path: Armature/LegFrontRight/FootFrontRight
+        weight: 1
+      - path: Armature/LowerBack
+        weight: 1
+      - path: Armature/LowerBack/UpperBack
+        weight: 1
+      - path: Armature/LowerBack/UpperBack/Head
+        weight: 1
+      - path: Armature/Tail
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
